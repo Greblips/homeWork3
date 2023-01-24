@@ -2,7 +2,7 @@
 
 const password = '11111';
 const password2 = prompt('Введите пароль!');
-const access = (password === password2) ? "Пароль введен верно": "Пароль введен неправильно";
+alert = (password === password2) ? "Пароль введен верно": "Пароль введен неправильно";
 alert(access);
 
 
@@ -18,7 +18,7 @@ const d = 110;
 const e = 10;
 
 if (d > 100 || e > 100) {
-    alert('Верно');3
+    alert('Верно');
 } else {
     alert('Неверно');
 }
@@ -37,27 +37,27 @@ let monthNumber = prompt('Введите месяц');
 
 
 switch (monthNumber) {
+        case '12':
         case '1':
         case '2':
-        case '3':
           alert( 'Зима' );
           break;
       
+        case '3':
         case '4':
         case '5':
-        case '6':
            alert( 'весна' );
            break;
 
+        case '6':
         case '7':
         case '8':
-        case '9':
             alert( 'лето' );
             break;
 
+        case '9':
         case '10':
         case '11':
-        case '12':
             alert( 'Осень' );
             break;
         default:
